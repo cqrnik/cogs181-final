@@ -1,0 +1,26 @@
+overall objective/outline:
+>1500words
+format example at jmlr.org 
+use this as format https://media.neurips.cc/Conferences/NeurIPS2023/Styles/neurips_2023.pdf
+abstract, introduction, method, experiment, conclusion, references
+
+grading criteria: 
+"Interestingness"  (10 points).
+dataset size and difficulty (10 points)
+new aspects in algo/design/application (20 points)
+
+what do:
+find dataset
+create research question
+use some method (prob char rnn) to give some solution based on data
+
+
+options:
+train CNN on some network structure, similar to prev group project
+char rnn- generates by character
+          use https://github.com/jcjohnson/torch-rnn for faster model
+
+
+Topic ideas:
+char rnn english to kannada
+char rnn relating to some game terms?
