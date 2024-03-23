@@ -72,7 +72,7 @@ optimizations:
 increased batch size
 increased learning rate
 reduced max epochs
-more frequent checkpoints
+more frequent checkpoints!
 
 
 todo: 
