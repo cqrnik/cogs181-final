@@ -13,7 +13,7 @@ local cmd = torch.CmdLine()
 -- Dataset options
 cmd:option('-input_h5', 'data/tiny-shakespeare.h5')
 cmd:option('-input_json', 'data/tiny-shakespeare.json')
-cmd:option('-batch_size', 100)
+cmd:option('-batch_size', 50)
 cmd:option('-seq_length', 50)
 
 -- Model options
@@ -27,16 +27,16 @@ cmd:option('-dropout', 0)
 cmd:option('-batchnorm', 0)
 
 -- Optimization options
-cmd:option('-max_epochs', 1)
-cmd:option('-learning_rate', 2e-1)
+cmd:option('-max_epochs', 50)
+cmd:option('-learning_rate', 2e-3)
 cmd:option('-grad_clip', 5)
 cmd:option('-lr_decay_every', 5)
 cmd:option('-lr_decay_factor', 0.5)
 
 -- Output options
-cmd:option('-print_every', 10)
-cmd:option('-checkpoint_every', 100)
-cmd:option('-checkpoint_name', 'cv/checkpoint_random')
+cmd:option('-print_every', 1)
+cmd:option('-checkpoint_every', 1000)
+cmd:option('-checkpoint_name', 'cv/checkpoint')
 
 -- Benchmark options
 cmd:option('-speed_benchmark', 0)

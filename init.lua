@@ -1,5 +1,5 @@
 require 'torch'
-require 'nn' 
+require 'nn'
 
 require 'torch-rnn.LSTM'
 require 'torch-rnn.VanillaRNN'

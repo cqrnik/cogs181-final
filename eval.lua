@@ -1,4 +1,4 @@
-require 'torch' []
+require 'torch'
 require 'nn'
 
 require 'LanguageModel'
